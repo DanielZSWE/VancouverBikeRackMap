@@ -7,6 +7,8 @@ The file `wrangle_bike_racks.py` uses the Google Maps Geocoding API to find coor
 
 The frontend is located in the `maps_javascript_api` folder, and uses the Google Maps JavaScript API to plot of all the bike rack locations on the map. Clustering is applied so users will only see clusters of bike racks when zoomed out, and each bike rack location is given a different colored marker based on how many bike racks are actually at that location. The file `index.js` contains these operations, and more such as the creation of a legend to explain the different colored markers. 
 
+You can explore the map here: <https://vancouverbikeracks.netlify.app/>.
+
 
 
 
