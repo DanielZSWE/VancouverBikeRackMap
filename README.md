@@ -1,7 +1,7 @@
 # VancouverBikeRackMap
 A map of bike racks in Vancouver. 
 
-Uses a City of Vancouver dataset of bike racks and their addresses, found here: <https://opendata.vancouver.ca/explore/dataset/bike-racks/information/>. This dataset is from 2021, but there are no up to date datasets. 
+Uses a City of Vancouver dataset of bike racks and their addresses, found here: <https://opendata.vancouver.ca/explore/dataset/bike-racks/information/>. This dataset is from 2021, but there are no up to date datasets. Notably most bike racks in parks or along the Seawall path (Seaside Greenway) are not included. 
 
 The file `wrangle_bike_racks.py` uses the Google Maps Geocoding API to find coordinates for each of the over 1700 bike rack addresses. This file will generate `bike-racks-geocoded.csv`, but will take a long time to run since it will geocode all of the addresses without stopping. If you wish to recreate the geocoded dataset, you may want to only geocode a few hundred rows at a time. 
 
