@@ -1,2 +1,2 @@
 # VancouverBikeRackMap
-Map of Vancouver Bike Racks.
+A Map of Vancouver Bike Racks.
